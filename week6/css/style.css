@@ -1,0 +1,53 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+}
+#header h1{
+    color: #6D4C41;
+}
+#header blockquote{
+    background-color: #FFF59D;
+}
+.menu ul{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.gambar{
+    text-align: center;
+}
+.fp::first-letter{
+    font-size: 50px;
+    color: #6D4C41;
+}
+.koleksi{
+    text-align: center;
+}
+.koleksi img{
+    width: 20%;
+}
+.promo{
+    text-align: center;
+}
+.promo h3{
+    width: 30%;
+    background-color: #deb887;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.promo strong{
+    color: #6D4C41
+}
+.promo li{
+    display: inline;
+    padding: 0 8px;
+}
