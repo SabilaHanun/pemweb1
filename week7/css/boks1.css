@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #BBDEFB;
+    margin: 25px;
+}
+
+.foto{
+    width: 300px;
+    margin: 15px 10px;
+    border-radius: 10px;
+}
