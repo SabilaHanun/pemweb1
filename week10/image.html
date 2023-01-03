@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+    <style>
+        .list{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <select onchange="gantigambar()" name="listgambar" id="listgambar" class="list">
+        <option value="">Pilih Gambar</option>
+        <option value="https://unsplash.com/photos/Pg6YGIJ97lw">Gajah</option>
+        <option value="https://unsplash.com/photos/IuJc2qh2TcA">Kucing</option>
+        <option value="https://unsplash.com/photos/1Jmfc6pZnr4">Panda</option>
+        </select>
+    </center>
+    <br>
+    <img style="width: 300px;" src="https://unsplash.com/photos/tUTlUel_Nvs" alt="gambar">
+<script>
+    function gantigambar() {
+        let gambar = document.getElementById("listgambar").value;
+        document.getElementById("gambar").src = gambar;
+    }
+</script>
+
+</body>
+</html>
